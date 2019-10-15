@@ -1,5 +1,6 @@
-package com.ithome.mymod;
+package com.ithome.mymod.commands;
 
+import com.ithome.mymod.commands.Colosseum;
 import net.minecraft.block.BlockAir;
 import net.minecraft.command.CommandBase;
 import net.minecraft.command.CommandException;
@@ -23,12 +24,12 @@ public class ColosseumFillCommand extends CommandBase {
     }
 
     @Override
-    public String getName() {
+    public String getCommandName() {
         return "Fill Colosseum";
     }
 
     @Override
-    public List getAliases() {
+    public List getCommandAliases() {
         return aliases;
     }
 
@@ -38,7 +39,7 @@ public class ColosseumFillCommand extends CommandBase {
     }
 
     @Override
-    public void execute(ICommandSender sender, String[] args) throws CommandException {
+    public void processCommand(ICommandSender sender, String[] args) throws CommandException {
         // 預設的競技場需要大小
         int widthHalf = 17;
         int lengthHalf = 22;

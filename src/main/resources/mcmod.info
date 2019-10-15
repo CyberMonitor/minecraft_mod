@@ -1,0 +1,15 @@
+[
+{
+  "modid": "mymod",
+  "name": "My Mod",
+  "description": "A mod for itHome",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "authorList": ["Sam"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

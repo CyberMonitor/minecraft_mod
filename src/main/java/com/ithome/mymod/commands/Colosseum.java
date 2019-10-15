@@ -1,4 +1,4 @@
-package com.ithome.mymod;
+package com.ithome.mymod.commands;
 
 import net.minecraft.block.*;
 import net.minecraft.block.state.IBlockState;
